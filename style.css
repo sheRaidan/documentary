@@ -1,0 +1,95 @@
+/* ---------- general styling ---------- */
+html{
+    font-size: 10px;
+}
+body{
+    font-size: 1.6rem;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    overflow-x: hidden;
+    background: url(img/bg.png);
+    background-size: 100% 100%;
+    background-repeat: repeat-y;
+    margin: 0;
+    color: lightyellow;
+}
+header{
+    text-align: center;
+    background: url(img/header.png);
+    background-size: 100% 100%;
+    margin: 0;
+    padding: 0;
+    height: 20rem;
+    width: 100vw;
+    position: fixed;
+    z-index: 100;
+}
+h1{
+    margin: 0;
+    text-shadow: 0 2px 3px #300000;
+    font-size: 4rem;
+    /* max-width: fit-content; */
+    /* background-color: azure; */
+}
+section{
+    grid-column-start: 3;
+    grid-column-end: 11;
+    margin-bottom: 6vh;
+    margin-top: 20rem;
+}
+.hide{
+    display: none;
+}
+
+#slider{
+    position: fixed;
+    width: 10vw;
+    bottom: 5vh;
+    left: 45vw;
+}
+
+.beside{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+.beside p{
+    grid-column: span 3;
+}
+
+a{
+    color: goldenrod;
+}
+
+/* ---------- section 2 styling ---------- */
+#logoNguh{
+    transition: all 7s;
+}
+
+/* ---------- section 3 styling ---------- */
+.wrong{
+    text-decoration: underline wavy red 1px;
+}
+#quote{
+    border: 3px solid #300000;
+    border-radius: 15px;
+    text-align: center;
+    background: #ffffff88;
+    color: #300000;
+}
+
+/* ---------- section 5 styling ---------- */
+#first, #second, #third{
+    font-size: 2rem;
+}
+
+#first{
+    color: gold;
+}
+#second{
+    color: silver;
+}
+#third{
+    color: chocolate;
+}
+
+/* ---------- responsivity styling ---------- */

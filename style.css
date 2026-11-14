@@ -45,6 +45,16 @@ h1{
 #right{
     right: 0;
 }
+#begin{
+    border-radius: 50%; 
+    corner-shape: notch bevel bevel notch;
+    background: lightyellow;
+    opacity: 0.1;
+    transition: all 0.2s;
+}
+#begin:hover{
+    opacity: 1;
+}
 section{
     grid-column-start: 3;
     grid-column-end: 11;

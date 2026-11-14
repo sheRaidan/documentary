@@ -1,7 +1,5 @@
-var left = document.getElementById("left");
-var right = document.getElementById("right");
+var curtain = document.querySelectorAll(".curtain");
 
-function open(){
-    left.classList.add("hide");
-    right.classList.add("hide");
+function openTheCurtain(){
+    curtain.style.height = "0vh";
 }

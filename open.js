@@ -1,5 +1,7 @@
-var curtain = document.querySelectorAll(".curtain");
+var left = document.getElementById("left");
+var right = document.getElementById("right");
 
-function openTheCurtain(){
-    curtain.style.height = "0vh";
+function openingTheCurtain(){
+    left.style.left = "-50vw";
+    right.style.right = "-50vw";
 }

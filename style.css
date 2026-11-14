@@ -31,6 +31,20 @@ h1{
     /* max-width: fit-content; */
     /* background-color: azure; */
 }
+.curtain{
+    position: fixed;
+    height: 100vh;
+    width: 50vw;
+    background: url(img/overlay.png);
+    background-size: 100% 100%;
+    background-repeat: repeat-y;
+}
+#left{
+    left: 0;
+}
+#right{
+    right: 0;
+}
 section{
     grid-column-start: 3;
     grid-column-end: 11;

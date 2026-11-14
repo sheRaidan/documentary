@@ -49,6 +49,7 @@ h1{
     border-radius: 50%; 
     corner-shape: notch bevel bevel notch;
     background: lightyellow;
+    border: none;
     height: 20vh;
     margin-top: 40vh;
     width: 40vh;

@@ -53,12 +53,12 @@ h1{
 #begin{
     border-radius: 50%; 
     corner-shape: notch bevel bevel notch;
-    background: lightyellow;
+    background: linear-gradient(to right, none 50%, lightyellow 50%, lightyellow);
     border: none;
     height: 20vh;
     margin-top: 40vh;
     width: 34.64vh;
-    opacity: 0.1;
+    opacity: 0.3;
     transition: all 0.2s;
 }
 #begin:hover{
@@ -94,10 +94,11 @@ a{
 }
 
 iframe, video{
-    outline: 3px dotted goldenrod; 
-    outline-offset: -4px; 
-    border: 6px solid firebrick; 
+    outline: 5px dotted goldenrod; 
+    outline-offset: -10px; 
+    border: 15px solid firebrick; 
     border-radius: 15px;
+    box-shadow: 0 2px 3px #300000;
 }
 
 /* ---------- section 2 styling ---------- */

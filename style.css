@@ -93,6 +93,13 @@ a{
     color: goldenrod;
 }
 
+iframe, video{
+    outline: 3px dotted goldenrod; 
+    outline-offset: -4px; 
+    border: 6px solid firebrick; 
+    border-radius: 15px;
+}
+
 /* ---------- section 2 styling ---------- */
 #logoNguh{
     transition: all 7s;

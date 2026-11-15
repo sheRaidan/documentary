@@ -42,6 +42,9 @@ h1{
 }
 #left{
     left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 #right{
     right: 0;

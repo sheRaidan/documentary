@@ -53,7 +53,7 @@ h1{
 #begin{
     border-radius: 50%; 
     corner-shape: notch bevel bevel notch;
-    background: linear-gradient(to right, none 50%, lightyellow 50%, lightyellow);
+    background: linear-gradient(to right, transparent 50%, lightyellow 50%);
     border: none;
     height: 20vh;
     margin-top: 40vh;
